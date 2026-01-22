@@ -1,0 +1,103 @@
+/* BÁSICOS PARA TODA LA PÁGINA */
+
+* {
+ margin:5px;
+ padding:1px;
+ box-sizing: border-box;
+}
+
+
+/* COLORES BÁSICOS Y FUENTE QUE SE VAN A USAR */
+
+:root{
+  --color-enlace: #0300ce;
+  --color-encabezado: #ffe7dd;
+  --color-fondo: #dddddd;
+  --color-negro: #333333;
+  --color--primario:#ff7979;
+  --color--blanco:#ffffff;
+  
+ 
+  --fuente-base: "Segoe UI", system-ui, -apple-system, sans-serif
+  /* La funete la mantemenos porque es la más "moderna" y me ha gustado mucho */
+}
+
+body{
+    font-family: var(--fuente-base);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+     line-height: 1.2;
+}
+
+
+
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+.site-header{
+    background-color: var(--color-encabezado);
+    text-align: left;
+    border-bottom: 0.2px solid #333;
+}
+
+
+
+.main-nav ul{
+
+    list-style-type: none; /* QUITA LOS PUNTOS */
+    margin: 0px;
+    padding: 0px;
+    gap: 50px; /* SEPARACIÓN DE LAS PALABRAS */
+    display:block;    
+}
+
+
+.main-nav ul li a{  /* para las palabras */
+    text-decoration: none;
+    color: rgb(14, 0, 90);
+    font-weight: bold;
+}
+
+
+.main-nav a:hover {
+  background-color: var(--color--blanco);
+  color: var(--color-negro);
+}
+
+/* Tablas Destino */
+
+.tabla-destino{
+    border: 9px outset #333;
+    padding: 0px;
+    width: 70%;
+    margin-top: 0px;
+    background-color: var(--color--blanco);
+}
+
+
+.tabla-destino th,
+.tabla-destino td{
+border : 1px outset #3d0000;
+padding: 1px 0.5px;
+text-align: center;
+}
+
+.tabla-destino th{
+    background-color: var(--color--primario) ;
+    font-size: 22px;
+}
+.tabla-destino td{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.site-footer{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}

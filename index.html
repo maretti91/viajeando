@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>VIAJEANDO POR ESPAÑA</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+        <h1 class="logo">VIAJEANDO POR ESPAÑA</h1>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="destinos.html">Destino</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+         </nav>
+        </div>
+    </header>
+
+    <main id="inicio">
+
+        <section class="hero">
+            <div class="container">
+                <h2>BIENVENIDO A MI BLOG</h2>
+                <a href="#galeria" class="btn btn-primero">Galería</a>
+                <a href="#enlaces" class="btn btn-segundo">Enlaces de interés</a>
+            </div>
+        </section>
+
+        <section id="presentacion">
+            <div class="container">
+            <p>
+                MUUUUUUY BUENAS!!!! Compañero viajero. <br> <br> 
+                
+                Espero que disfrutes de mi blog de viajes, donde te cuento 
+                todas mis experiencias vividas en este país tan maravilloso como es España.  <br> <br>
+
+                Te cuento un poco sobre mi! Mi nombre es <em>Marco Maretti</em>, italiano de nacimiento, pero de 
+                culo inquieto allá donde los haya. Me encanta el deporte, y como no puede ser de otra manera, viajar. <br> <br>
+
+                He tenido la suerte de que la vída me ha llevado a este país tan precioso, como es España, con sus playas, montañas, costas,
+                ciudades, pueblos, comidas, monumentos... ¡mamma mia si hay cosas! <br> <br>
+
+                He de confesarte que yo antes viajaba sin ningún tipo de planificación y eso a la larga te puede salir caro, a la par de
+                que te puedes perder cosas sin ver, por eso ahora planifico mejor mis viajes, <ins>CADA DETALLE</ins>, para aprovechar
+                mucho mejor el tiempo, y te lo voy a aconsejar a ti.<br> <br>
+
+                Pero ¿Por dónde empezar? 
+                <p>
+            </div>
+        </section>
+
+        <section class="lista">
+            <div class="container">
+
+            <h3>Pasos para organizar un viaje</h3>
+              <ol>
+                <li>Elegir el destino y la fecha.</li>
+                <li>Reservar alojamiento y transporte.</li>
+                <li>Buscar información sobre actividades y visitas.</li>
+                <li>Preparar la maleta .</li>
+            </ol>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <div class="container">
+            <h2>Galería </h2>
+
+             <article id="musica">
+                <h3>Música para descubrir</h3>
+                <p>Te dejo una pista de audio para acompañarte en tu viaje:</p>
+                <audio controls>
+                    <source src="media/musica-viaje.mp3" type="audio/mpeg">
+                </audio>
+            </article>
+
+            <article>
+                <h3>Foto: Un día normal en la playa </h3>
+                <img src="media/playa-barcelona.jpg" alt="Atardecer en la playa de Barcelona" width="500">
+                <p>
+                    Uno de mis momentos favoritos fue esta mañana en la playa de Barcelona. 
+                    La luz, el sonido del mar y el ambiente eran ideales.
+                </p>
+            </article>
+
+           <article>
+                <h3>Vídeo: Vlog de un viaje por España</h3>
+                <p>En este vídeo puedes ver un resumen de un viaje por varias ciudades:</p>
+                <video controls width="480">
+                    <source src="media/vlog-espania.mp4" type="video/mp4">
+                </video>
+            </article>
+
+
+            </div>
+        </section>
+
+        <section id="enlaces">
+            <div class="container">
+            <h2>Enlaces recomendados</h2>
+            <p>
+                Si quieres más información sobre turismo en España, puedes visitar:
+            </p>
+            <ul>
+                <li><a href="https://www.spain.info" target="_blank">Portal oficial de turismo de España</a></li>
+                <li><a href="https://www.renfe.com" target="_blank">Renfe (trenes en España)</a></li>
+                <li><a href="https://www.aena.es" target="_blank">Aeropuertos de España (AENA)</a></li>
+            </ul>
+            </div>
+        </section>
+
+
+        <section id="contacto">
+            <div class="container">
+
+                <h2>Formulario de contacto</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+
+                <p>
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="comentario">Comentario:</label><br>
+                    <textarea id="comentario" name="comentario" rows="5" cols="40" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </p>
+            </form>
+
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="site-footer">
+        <div class="container">
+
+        <p><strong>Autor:</strong> Marco Maretti</p>
+        <p>&copy; 2025 Mi Blog de Viajes por España</p>
+       
+        </div>
+    </footer>
+
+</body>
+</html>
